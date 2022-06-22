@@ -101,6 +101,12 @@ h4{
     border-radius: 30px;
     background-color: rgb(255, 226, 59);
     box-shadow: 0px 0px 5px #000, 0px 0px 10px white;
-    top: -3px;
+    top: -3.5px;
     right: -140px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.newslatter form input:last-child:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
