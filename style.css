@@ -110,3 +110,62 @@ h4{
     transform: scale(1.1);
     transition: 0.4s;
 }
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.about-text p{
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    text-justify: justify;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+.about-text button{
+    color: #191919;
+    background-color: rgb(255, 226, 59);
+    border: 2px solid transparent;
+    border-radius: 35px;
+    padding: 13px 30px;
+    font-weight: bold;
+    transition: 0.4s;
+    box-shadow: 0px 0px 10px rgb(93, 93, 93);
+}
+.about-text button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(255, 226, 59);
+    transition: 0.4s;
+    
+}
