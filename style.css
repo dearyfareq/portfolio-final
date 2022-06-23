@@ -44,7 +44,7 @@ nav ul li a:hover {
 }
 .button {
   background-color: rgb(255, 226, 59);
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
