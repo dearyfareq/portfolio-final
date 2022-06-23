@@ -168,3 +168,69 @@ h4 {
   border: 2px solid rgb(255, 226, 59);
   transition: 0.4s;
 }
+.service {
+  background-color: #101010;
+  width: 100%;
+  padding: 100px 0px;
+}
+.title h2 {
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+  width: 1130px;
+  margin: 30px auto;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+i {
+  color: rgb(255, 226, 59);
+  font-size: 45px;
+  display: block;
+  margin: 25px 0px;
+  text-align: center;
+}
+.card h5 {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.pra p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 25px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.btn {
+  color: #191919;
+  background-color: rgb(255, 226, 59);
+  border: 2px solid transparent;
+  border-radius: 35px;
+  padding: 13px 30px;
+  font-weight: bold;
+  transition: 0.4s;
+  text-decoration: none;
+  margin-top: -30px;
+}
+.btn:hover {
+  color: white;
+  background-color: transparent;
+  border: 2px solid rgb(255, 226, 59);
+  transition: 0.4s;
+}
