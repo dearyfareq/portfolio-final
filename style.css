@@ -66,6 +66,7 @@ h1 {
   color: white;
   margin: 20px 0px 20px;
   font-size: 75px;
+  font-family:monospace;
 }
 h3 {
   color: white;
@@ -265,3 +266,13 @@ i {
   transition: 0.4s;
   transform: scale(1.1);
 }
+
+@font-face {
+  font-family: 'Monaco';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Monaco'), url('Monaco.woff') format('woff');
+  }
+  .coin{
+    margin-right: -200px;
+  }
